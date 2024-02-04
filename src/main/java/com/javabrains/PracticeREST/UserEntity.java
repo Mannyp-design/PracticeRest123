@@ -11,11 +11,11 @@ public class UserEntity {
         }
 
         String dependsOnIsTrue = isTrue ? "nice" :"bad ";
-
+        System.out.println(dependsOnIsTrue);
 
     }
 
-    void helloWorld(){
+    public void helloWorld(){
 
         System.out.println("Hello World");
     }
