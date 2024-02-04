@@ -7,11 +7,16 @@ public class UserEntity {
         boolean isTrue;
 
         if(1>0){
-            isTrue=false;
+            isTrue=true;
         }
 
         String dependsOnIsTrue = isTrue ? "nice" :"bad ";
-        System.out.println(dependsOnIsTrue);
 
+
+    }
+
+    void helloWorld(){
+
+        System.out.println("Hello World");
     }
 }
